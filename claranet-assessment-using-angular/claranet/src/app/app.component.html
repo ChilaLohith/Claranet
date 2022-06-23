@@ -1,0 +1,19 @@
+<div style="text-align:center">
+  <h2 class="heading">
+      Welcome to BEERS page
+  </h2>
+  <a href="#" class="button" (click)="toggleTable()">Click here to get the BEERS information</a>
+  <div *ngIf="showTable" class="show-table">
+    <table class="beers-table" border="1px" cellspacing="0" cellpadding="20px"> 
+      <tr>
+        <th *ngFor="let key of keys">
+          {{key | titlecase | replace: '_':' '}}
+        </th>
+      </tr>
+    
+      <tr *ngFor="let item of beersList">
+        <td *ngFor="let key of keys">{{item[key]}}</td>
+      </tr>
+    </table>
+  </div>
+</div>
