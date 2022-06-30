@@ -1,0 +1,27 @@
+#app {
+    margin: 0 auto;
+    font-weight: normal;
+  }
+  
+  header {
+    background-color: #26302E;
+    line-height: 1.5;
+    position: fixed;
+    padding-top: 15px;
+    width: 100%;
+    z-index: 2;
+  }
+  
+  main {
+    position: relative;
+    top: 100px;
+    width: 100%;
+  }
+  
+  
+  .green {
+    text-decoration: none;
+    color: hsla(160, 100%, 37%, 1);
+    transition: 0.4s;
+  }
+  

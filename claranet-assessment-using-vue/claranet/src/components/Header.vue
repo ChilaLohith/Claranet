@@ -14,14 +14,6 @@ defineProps({
 </template>
 
 <style scoped>
-h1 {
-  font-weight: 500;
-  font-size: 2.6rem;
-  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-}
-
-.greetings h1 {
-  text-align: center;
-}
+@import './../assets/css/Header.css'
 
 </style>

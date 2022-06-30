@@ -1,0 +1,59 @@
+
+.main-show {
+    padding-top: 30px;
+}
+
+.main-show-buttons {
+  display: flex;
+  padding-left: 30%;
+}
+
+.object {
+    margin: 15px auto;
+    border-radius: 20px;
+    padding: 20px;
+    width: 70%;
+  }
+  
+  .object:hover {
+    transform: scaleX(1.2) scaleY(1.2);
+    transition: all 1s;
+    z-index: 1;
+  }
+  
+  .oddObject {
+    background-color: #5B7E77;
+    color: #fff;
+  }
+  
+  .evenObject {
+    background-color: #E4ECEB;
+  }
+
+  .search-object {
+    background-color: #AACCF4;
+  }
+  
+  .key {
+    font-weight: bold;
+  }
+  
+  .button {
+      background-color: #3393FF;
+      color: #fff;
+      display: inline-block;
+      margin: 0 10px;
+      padding: 10px;
+      text-decoration: none;
+      border-radius: 10px;
+  }
+
+  .button:hover {
+    background-color: #ACB2B0;
+  }
+
+  .search-box {
+    display: inline-block;
+    height: 30px;
+    margin-top: 5px;
+  }

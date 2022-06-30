@@ -1,0 +1,42 @@
+
+.home-header {
+    text-align: center;
+    padding: 15px 0;
+    font-weight: 700;
+}
+
+.home-body {
+    background-color: #E0EBF7;
+    border-radius: 10px;
+    width: 35%;
+    margin: 10px auto;
+    padding: 20px;
+}
+
+.home-body-header {
+    margin-bottom: 10px;
+    text-align: center;
+    font-weight: 600;
+}
+
+.home-body p {
+    margin-top: 10px;
+}
+
+.home-body tr {
+    margin-top: 10px;
+}
+
+.sign-button {
+    padding: 7px !important;
+    margin: 10px 40% !important;   
+}
+
+.click-here {
+    color: #4793F0;
+    text-decoration: none;
+}
+
+.click-here:hover {
+    text-decoration: underline;
+}
